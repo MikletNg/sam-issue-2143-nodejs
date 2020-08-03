@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-issue-2143"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-15fxgt1mg879"
+s3_prefix = "sam-issue-2143"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
